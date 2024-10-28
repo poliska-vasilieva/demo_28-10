@@ -101,12 +101,6 @@ section {
     align-items: center;
 }
 
-.map {
-    width: 400px;
-    height: 200px;
-    background-color: bisque;
-}
-
 .cont__text {
     font-size: 20px;
     text-align: center;
@@ -174,4 +168,73 @@ input {
 
 .t__img {
     max-width: 270px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+div ul {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    list-style-type: none;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.block-cover {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.hide {
+    display: none;
+}
+
+.active {
+    background-color: rgba(250, 191, 75, 0.4);
+    padding: 12px;
+    border-radius: 30px;
+}
+
+.for__margin {
+    margin-bottom: 40px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    background-color: #F0F0F0;
+    padding: 40px;
+    border-radius: 40px;
+}
+
+.img__card {
+    max-width: 215px;
+}
+
+.card__info, .review {
+    color: #171717;
+}
+
+.name__card, .name__client {    
+    font-weight: 500;
+    font-size: 27px;
+}
+
+.price__card, .review__client {
+    font-size: 19px;
+    margin: 20px 0;
+}
+
+.book__about {
+    font-size: 23px;
 }
