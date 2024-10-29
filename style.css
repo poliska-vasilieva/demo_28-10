@@ -151,6 +151,9 @@ input {
     background-color: #F0F0F0;
     border-radius: 30px;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .tovar {
@@ -233,8 +236,4 @@ div ul {
 .price__card, .review__client {
     font-size: 19px;
     margin: 20px 0;
-}
-
-.book__about {
-    font-size: 23px;
 }
